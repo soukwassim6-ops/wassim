@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Contact - Site SNT</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+  <a href="index.html">Accueil</a> |
+  <a href="presentation.html">Présentation</a> |
+  <a href="chapitres.html">Chapitre</a> |
+  <a href="ressources.html">Ressources</a> |
+  <a href="contact.html">Contact</a>
+</nav>
+<h1>Bienvenue sur mon site web</h1>
+<p>Ceci est la page d'accueil.</p>
+
+<h2>Écouter un fichier audio</h2>
+<audio controls>
+  <source src="musique.mp3" type="audio/mpeg">
+  Votre navigateur ne supporte pas l'audio.
+</audio>
+<h1>Contactez-moi</h1>
+
+<form onsubmit="return false">
+  <label>Nom :</label><br>
+  <input type="text" name="nom" required><br><br>
+
+  <label>Email :</label><br>
+  <input type="email" name="email" required><br><br>
+
+  <label>Message :</label><br>
+  <textarea name="message" required></textarea><br><br>
+
+  <input type="submit" value="Envoyer">
+</form>
+
+
+</body>
+</html>
+
+
+
+
